@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -62,6 +63,7 @@ header nav li:last-of-type a{
     align-items: end;
     justify-content: center;
     padding-bottom:71px;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
@@ -238,4 +240,45 @@ header nav li:last-of-type a{
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
+}
+.icons{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+
+
+}
+.icons li{
+    margin-left: 16px;
+    list-style: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 100% */
+}
+.icons li:before{
+    display: inline-block;
+    content: "";
+    background-image: url("../images/IMAGE (20).svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-bottom: -6px;
+
+}
+.icons li:nth-child(2):before{
+background-image: url("../images/IMAGE (21).svg");
+}
+.icons li:nth-child(3):before{
+    background-image: url("../images/IMAGE (22).svg");
+    width: 32px;
+    margin-right: 7px;
+}
+.icons li:nth-child(4):before{
+    background-image:url("../images/IMAGE (23).svg");
+    width: 10px;
+    margin-right: 5px;
 }
