@@ -182,6 +182,19 @@ header nav li:last-of-type a{
     padding-bottom: 100px;
 
 }
+.clients_link a{
+    max-width: 128px;
+    display: inline-block;
+}
+
+
+.clients_link .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.clients_link.owl-carousel .owl-item{
+    text-align: center;
+}
 .clients .container{
     justify-content: center;
 }
