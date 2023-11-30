@@ -57,6 +57,10 @@ header nav li:last-of-type a{
     padding: 11px 20px ;
     letter-spacing: 0.4px;
 }
+header .logo{
+    position: relative;
+    z-index: 100;
+}
 .main_banner{
     background-image:url("../images/big_logo.jpg");
     background-size:cover;
@@ -224,6 +228,16 @@ header nav li:last-of-type a{
     align-items: center;
     padding: 40px 46px;
 }
+.clients_link.owl-carousel .owl-dots .owl-dot .span{
+    width: 20px ;
+    height: 20px ;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin: 10px;
+
+
+}
+
 .sky_banner{
     background-image: url("../images/sky_banner.jpg");
     background-size: cover;
