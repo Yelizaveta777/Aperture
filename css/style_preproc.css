@@ -1,0 +1,140 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "mobile.menu.css";
+@import "style.css";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background: #181818;
+  padding: 24px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1168px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 32px;
+  padding-right: 20px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+header nav li {
+  margin-left: 32px;
+}
+
+header nav li:first-of-type {
+  margin-right: 24px;
+}
+
+header nav li:first-of-type {
+  margin-left: 31px;
+}
+
+header nav li a {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+header nav li:first-of-type a {
+  font-size: 13px;
+}
+
+header nav li:last-of-type a {
+  border-radius: 14px;
+  background: #FFF;
+  color: #181818;
+  font-size: 16px;
+  padding: 11px 20px;
+  letter-spacing: 0.4px;
+}
+
+header .logo {
+  position: relative;
+  z-index: 100;
+}
+
+.main_banner {
+  background-image: url("../images/big_logo.jpg");
+  background-size: cover;
+  height: calc(100vh - 83px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 71px;
+  position: relative;
+}
+
+.main_banner .container {
+  max-width: 580px;
+  text-align: center;
+  margin: inherit;
+}
+
+.main_banner h3 {
+  margin-bottom: 1px;
+  color: #C0C0C0;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main_banner h1 {
+  margin-bottom: 18px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59.4px; /* 110% */
+}
+
+.main_banner p {
+  color: #C0C0C0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
