@@ -35,11 +35,16 @@
  .main_banner p{
   padding:0px 10px 0px 10px  ;
  }
+ header nav li{
+  margin-left: 12px;
+ }
+
  
 
 }
 
 @media screen and (max-width: 767px){
+  
   .icons li{
     margin-left: 10px;
   }
@@ -52,9 +57,7 @@
   .sky_banner .container{
     padding-left: 15px;
   }
-  .need_help h3{
-    font-size: 30px;
-  }
+ 
 .footer_logo{
   padding-left: 15px ;
 }
