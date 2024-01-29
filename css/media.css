@@ -30,12 +30,70 @@
  }
  .main_banner{
   align-items: center;
+  
  }
+ .main_banner p{
+  padding:0px 10px 0px 10px  ;
+ }
+ 
 
 }
 
 @media screen and (max-width: 767px){
+  .icons li{
+    margin-left: 10px;
+  }
+  .mount_banner .container{
+    padding-left: 15px;
+  }
+  .monstera_banner .container{
+    padding-left: 15px;
+  }
+  .sky_banner .container{
+    padding-left: 15px;
+  }
+  .need_help h3{
+    font-size: 30px;
+  }
+.footer_logo{
+  padding-left: 15px ;
+}
+.footer_links{
+  padding-left: 15px;
+}
+.busines_area{
+  margin-top:15px  ;
+}
+.pages{
+  margin-top: 15px;
+}
+.email_subscribe button{
+  padding:10px 12px  ;
+}
+.subscribe{
+ display: block;
+ padding-left: 15px;
+ 
+}
+.subscribe p{
+  margin-bottom: 15px;
+}
+.email_subscribe form{
+  margin-left: inherit;
+  margin-top: inherit;
+}
+.autor{
+  padding-left: 15px;
+  display: block;
+  
+}
+.icon{
+ margin-top: 15px;
 
+}
+.icon a{
+  padding-left: 10px;
+}
   header nav ul{
    display: block;
   }
